@@ -40,7 +40,7 @@ const PostList: React.FC = () => {
 
     try {
       const returnPost = await createPost(newPost);
-      setProductList((prevPosts) => [...prevPosts, returnPost]); // Add the new post to the list
+      //setProductList((prevPosts) => [...prevPosts, returnPost]); // Add the new post to the list
       console.log(returnPost);
 
       // Clear the form
@@ -90,7 +90,7 @@ const PostList: React.FC = () => {
         {
         productList.map((item,index) => {
             return (
-                    <> 
+                    
                      
         <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-2" key={item.id || index}>
           <ProductCard
@@ -100,7 +100,7 @@ const PostList: React.FC = () => {
                         />
                         </div>               
 
-                    </>
+                    
             )
         })  
     }

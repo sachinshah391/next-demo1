@@ -34,7 +34,12 @@ function Navabar() {
             All Posts
         </Link>
         </li>
-        <li><a>About</a></li>
+        <li>
+
+        <Link href='/about'>About</Link>
+        </li>
+        <li><Link href='/products'>Products</Link></li>
+        <li><Link href='/welcome'>Welcome</Link></li>
       </ul>
     </div>
   </div>
