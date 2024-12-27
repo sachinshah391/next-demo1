@@ -15,7 +15,6 @@ export default function Custom404() {
         <p style={styles.description}>
           Oops! The page you're looking for doesn't exist.
         </p>
-        {/* Uncomment the link if you want a back-to-home button */}
         <Link href="/" style={styles.link}>
           Go back to Home
         </Link>

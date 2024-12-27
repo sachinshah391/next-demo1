@@ -18,9 +18,9 @@ const nextConfig: NextConfig = {
   env: {
     CUSTOM_ENV_VARIABLE: 'demo', // Add custom environment variables
   },
-  experimental: {
-    appDir: true, // Enable the new app directory structure
-  },
+  // experimental: {
+  //   appDir: true, // Enable the new app directory structure
+  // },
   webpack: (config) => {
     // Extend Webpack configuration
     config.module.rules.push({
